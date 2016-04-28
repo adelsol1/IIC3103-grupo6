@@ -1,0 +1,14 @@
+ESta aplicación tiene modificaciones en los archivos:
+	routes.rb
+	user_controller.rb
+	index.html.erb
+	application_controller.rb
+
+La api consumida es la de las facturas, el método "emitir factura", que es un PUT y tiene como parámetro una "oc"
+
+Para ver como funciona se debe hacer correr el servidor rails ( $ rails s) y en el navegador ir a http://localhost:3000/users
+ahí se verá el html que sale en index.html.erb
+
+el consumo de la api se hace en el controlador de user
+
+
