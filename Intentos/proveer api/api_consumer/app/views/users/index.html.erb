@@ -1,0 +1,23 @@
+<%= link_to "Create New User", new_user_path %>
+<%if @ordencita.present? %>
+  <p>Below is the list of users</p>
+  <table width="100%">
+    <tr>
+      <td>ID</td>
+      <td>first_name</td>
+      <td>last_name</td>
+      <td>email</td>
+      <td>Action</td>
+    </tr>
+    <tr>
+      <td><%=@ordencita[:cliente]%></td>
+      <td><%=@ordencita[:updated_at]%></td>
+      <td><%=@ordencita[:iva]%></td>
+      <td><%=@ordencita[:iva]%></td>
+      <td>
+        
+      </td>
+    </tr>
+   <%end%>
+  </table>
+

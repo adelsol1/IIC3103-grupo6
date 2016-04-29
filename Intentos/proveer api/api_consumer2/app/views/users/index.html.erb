@@ -1,0 +1,22 @@
+<%= link_to "Create New User", new_user_path %>
+<%if @ordencita.present? %>
+  <p>Below is the list of users</p>
+  <table width="100%">
+    <tr>
+      <td>stock</td>
+      <td>stock</td>
+      <td>sku</td>
+      <td>sku</td>
+    </tr>
+    <tr>
+      <td><%=@ordencita[:stock]%></td>
+      <td><%=@ordencita[:stock]%></td>
+      <td><%=@ordencita[:sku]%></td>
+      <td><%=@ordencita[:sku]%></td>
+      <td>
+        
+      </td>
+    </tr>
+   <%end%>
+  </table>
+
